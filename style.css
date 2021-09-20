@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#top{
+    width: 100%;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%)
+}
+
+.container span {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-radius: 25px;
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.plan p{
+    margin-right: 40px;
+    color: hsl(223, 47%, 23%);
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+#price {
+    margin-right: 40px;
+}
+
+
+
+.plan img{
+    position: absolute;
+    width: 42px;
+    left: 5%;
+}
+
+
+#change {
+    position: absolute;
+    right: 10%;
+    color:  hsl(251, 71%, 54%);
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#change:hover{
+    color:  hsla(251, 71%, 54%, 0.62);
+    transform: translateY(-2px);
+}
+
+button {
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    font-weight: 700;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+}
+
+#proceed{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#cancel {
+    background-color: #fff;
+}
+
+#proceed:hover {
+    background-color: hsl(245, 60%, 60%);
+    transform: translateY(-2px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+#cancel:hover{
+    color: hsl(224, 23%, 55%);
+}
